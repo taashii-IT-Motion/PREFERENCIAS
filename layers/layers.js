@@ -93,7 +93,7 @@ var lyr_APPdeNavegacion_5 = new ol.layer.Vector({
             
             source: new ol.source.XYZ({
     attributions: ' ',
-                url: 'http://a.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png'
+                url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
 var format_TM_7 = new ol.format.GeoJSON();
